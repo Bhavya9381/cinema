@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="stylebro.css">
+    <title>MY WEBSITE</title>
+    <style>
+        .box {
+            background-color: #ffffff95;
+            margin: 2px;
+            margin-right: 8px;
+            max-width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid rgba(122, 110, 72, 0.5);
+            box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);
+            margin-bottom: 5px;
+        }
+        .head {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .para {
+            font-family:'Times New Roman', Times, serif;
+        }
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .iframe-container iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+        }
+        .subh h2 {
+            color: #278be3;
+            font-weight: bold;
+        }
+        .subh h4 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        .subh h5 {
+            color: #278be3;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .subh p {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .subh li {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <!-- NAV BAR START -->
+    <nav>
+        <div class="logo">
+            <img src="voluu.png" alt="logo" />
+            <img src="download-removebg-preview.png" alt="core" />
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Services.html">SERVICES</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!-- NAV BAR END -->
+
+    <div class="box">
+        <div class="head">
+            <h1><b>CAMERA MOVEMENTS</b></h1>
+        </div>
+        <div class="para">
+            <p>Welcome to the world of camera movements! Whether you're a filmmaker, videographer, or enthusiast, mastering camera movements can add depth, drama, and storytelling to your visuals.</p>
+            <p>Explore the art of camera movements with us as we dive into techniques, tips, and tricks to elevate your cinematography game.</p>
+        </div>
+        <div class="subh">
+            <h2><b>Introduction to Camera Movements</b></h2>
+            <p>Camera movements are essential tools in the filmmaker's arsenal, allowing you to create dynamic shots that engage and captivate your audience.</p>
+            <h4>Types of Camera Movements</h4>
+            <ul>
+                <li><b>Pan:</b> Horizontal movement of the camera from left to right or vice versa.</li>
+                <div class="iframe-container">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/IiQpYzOWiaU?si=Bg8f3OpiMPB2MuXF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+                <li><b>Tilt:</b> Vertical movement of the camera up or down.</li>
+                <li><b>Zoom:</b> Adjusting the focal length of the lens to bring the subject closer or push it further away.</li>
+                <li><b>Dolly:</b> Moving the entire camera setup closer to or further away from the subject.</li>
+                <li><b>Crane:</b> Vertical movement of the camera using a crane or jib.</li>
+                <li><b>Steadicam:</b> Smooth, stabilized movement achieved using a Steadicam rig.</li>
+            </ul>
+            <h2><b>Mastering Camera Movements</b></h2>
+            <p>Mastering camera movements requires practice, creativity, and an understanding of cinematic principles. Experiment with different movements to find the ones that best suit your storytelling style.</p>
+        </div>
+    </div>
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="lower-footer">
+            <div class="container">
+                <div class="footer-col-1">
+                    <p class="copyright">&copy; 2024 CINEMATICS WEBSITE. All rights reserved</p>
+                    <p style="color: #278be3">Created By Bujji</p>
+                </div>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://wa.me/xxxxxxxxxx"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+</div>
+
+<!-- JavaScript -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const iframe = document.getElementById("video");
+        const src = iframe.getAttribute("src");
+        iframe.setAttribute("src", src);
+    });
+</script>
+</body>
+</html>

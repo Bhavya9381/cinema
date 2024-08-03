@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="stylebro.css">
+    <title>MY WEBSITE</title>
+    <style>
+        .box {
+            background-color: #ffffff95;
+            margin: 2px;
+            margin-right: 8px;
+            max-width: 100%;
+            padding: 10px;
+            border-radius: 10px;
+            border: 2px solid rgba(122, 110, 72, 0.5);
+            box-shadow: 0 0 10px rgba(255, 153, 0, 0.5);
+            margin-bottom: 5px;
+        }
+        .head {
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .para {
+            font-family:'Times New Roman', Times, serif;
+        }
+        .iframe-container {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .iframe-container iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            border: none;
+        }
+        .subh h2 {
+            color: #278be3;
+            font-weight: bold;
+        }
+        .subh h4 {
+            font-family: 'Times New Roman', Times, serif;
+            font-weight: bold;
+        }
+        .subh h5 {
+            color: #278be3;
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .subh p {
+            font-family: 'Times New Roman', Times, serif;
+        }
+        .subh li {
+            font-family: 'Times New Roman', Times, serif;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <!-- NAV BAR START -->
+    <nav>
+        <div class="logo">
+            <img src="voluu.png" alt="logo" />
+            <img src="download-removebg-preview.png" alt="core" />
+        </div>
+        <ul>
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="Services.html">SERVICES</a></li>
+            <li><a href="About.html">ABOUT</a></li>
+            <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+    </nav>
+    <!-- NAV BAR END -->
+
+    <div class="box">
+        <div class="head">
+            <h1><b>LIGHTING TECHNIQUES</b></h1>
+        </div>
+        <div class="para">
+            <p>Welcome to the world of lighting! Whether you're a filmmaker, photographer, or enthusiast, mastering lighting techniques can dramatically improve the quality and mood of your visuals.</p>
+            <p>Explore the art of lighting with us as we dive into techniques, tips, and tricks to elevate your cinematography game.</p>
+        </div>
+        <div class="subh">
+            <h2><b>Introduction to Lighting</b></h2>
+            <p>Lighting is a crucial element in visual storytelling, allowing you to create mood, depth, and emphasis in your shots.</p>
+            <h4>Types of Lighting Techniques</h4>
+            <ul>
+                <li><b>Key Light:</b> The primary source of light, typically the brightest and most direct.</li>
+                <div class="iframe-container">
+                    <iframe id="video" src="https://www.youtube.com/embed/ScMzIvxBSi4" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <li><b>Fill Light:</b> Used to reduce shadows created by the key light, adding depth to the subject.</li>
+                <li><b>Back Light:</b> Placed behind the subject to create a rim of light, separating the subject from the background.</li>
+                <li><b>Hair Light:</b> Aimed at the subject's hair to give it a glow and separate it from the background.</li>
+                <li><b>Ambient Light:</b> The natural or existing light in a scene, which can be enhanced or controlled.</li>
+                <li><b>Practical Light:</b> Light sources that are visible within the scene, such as lamps or candles.</li>
+            </ul>
+            <h2><b>Mastering Lighting</b></h2>
+            <p>Mastering lighting requires practice, creativity, and an understanding of cinematic principles. Experiment with different lighting setups to find the ones that best suit your storytelling style.</p>
+        </div>
+    </div>
+
+    <!-- FOOTER START -->
+    <footer>
+        <div class="lower-footer">
+            <div class="container">
+                <div class="footer-col-1">
+                    <p class="copyright">&copy; 2024 CINEMATICS WEBSITE. All rights reserved</p>
+                    <p style="color: #278be3">Created By Bujji</p>
+                </div>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                    <li><a href="https://wa.me/xxxxxxxxxx"><i class="fab fa-whatsapp"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <!-- FOOTER END -->
+</div>
+
+<!-- JavaScript -->
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const iframe = document.getElementById("video");
+        const src = iframe.getAttribute("src");
+        iframe.setAttribute("src", src);
+    });
+</script>
+</body>
+</html>
